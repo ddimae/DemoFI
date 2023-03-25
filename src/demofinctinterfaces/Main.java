@@ -28,6 +28,7 @@ public class Main {
 
         obrabotkaArray(arr,x->Math.sqrt(x));
         obrabotkaArray(arr,x->Math.abs(x));
+        obrabotkaArray(arr,x->Math.floor(x));
 
 
     }
