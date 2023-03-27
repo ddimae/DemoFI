@@ -25,6 +25,10 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(Math.ceil(arr[i]));
         }
+        //#4
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(Math.floor(arr[i]));
+        }
 
         obrabotkaArray(arr,x->Math.sqrt(x));
         obrabotkaArray(arr,x->Math.abs(x));
